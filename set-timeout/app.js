@@ -10,6 +10,16 @@
 //     }, 2000)
 // };
 
+
+
+
+
+
+
+
+
+
+
 // in above code we will get 0,1,2,3,4 because let is block scope and each iteration of loop creates a new scope for i and setTimeout will capture the value of i at that time
 
 
@@ -20,6 +30,13 @@
 //       console.log(i);
 //     },2000);
 // };
+
+
+
+
+
+
+
 // in above code we will get 5,5,5,5,5 because var is function scope and by the time setTimeout executes the loop is already completed and i becomes 5
 
 // above same thing can be done without using var or let by using IIFE
