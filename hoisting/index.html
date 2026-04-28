@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hoisting Tutorial</h1>
+    <h2>
+      hoisting is how javascript moves variables and functions to the top of
+      their scope during compilation.(only decalration is hoisted)
+    </h2>
+    <li>
+      <ul>var:- It is hoisted and initialialized as undefined.Befor initialization when trying to access it gives us undefined
+
+      </ul>
+      <ul>const,let and class:- It is hoisted but exists in temporal deadzone . whenever we are trying to access it before their initialization it gives us Refference Error
+
+      </ul>
+      <ul>
+        function:- both decalration and defination is hoisted and we can call the function before declaration
+      </ul>
+      <ul>
+        function Expression:- only varaible hoisted not the function
+      </ul>
+      <ul>
+        Import Statements:- imports are hoisted initialization happend before the module code executes;
+      </ul>
+    </li>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,5 +1,5 @@
-console.log("its working");
-
+console.log("Debounce example");
+// debounce-> smart way to handle  events that fire repeatdly within a short time
 
 
 //without debounce
