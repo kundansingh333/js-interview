@@ -25,10 +25,13 @@ function call(){
 //function expression
 // call2();
 // call2;
+
+console.log(call2); // this will give undefined because of hoisting and call2 is a variable and it is not initialized yet
+// call2(); // this will give type error because call2 is undefined and it is not a function
 var call2=function(){
   console.log("hello from call2");
 }
-call2();
+call2(); //
 
 
 
